@@ -49,7 +49,6 @@ button:hover{
 }
 .qr{
     box-shadow: 0px 0px 20px rgb(128, 0, 0);
-
     background-color: #e0dede;
     border: .2vh black solid;
     height: 50vh;
@@ -68,4 +67,42 @@ button:hover{
 }
 body{
         background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+
+
+@media (max-width: 450px) and (max-height: 950px) {
+    .container {
+        
+        align-items: center;
+        width: 80vw;
+        height: 20vh;
+        top: 10vh;
+        left: 10vw;
+    }
+
+    .input_label_div {
+        width: 80%;
+        position: relative;
+        top:0vh;
+    }
+    .input_label_div:hover{
+        box-shadow: 0px 0px 15px white;
+    }
+    .qr {
+       
+        width: 80%;
+        height: auto;
+        left: 0px;
+    }
+
+    button {
+        width:9vh;
+        position: relative;
+        top:7.5vh;
+        right:33vw;
+    }
+    button:hover{
+        border: .2vw white dotted;
+    }
 }
