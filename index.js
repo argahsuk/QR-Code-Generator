@@ -4,7 +4,7 @@ document.querySelector('.gen').addEventListener('click',function(){
     
      qr_link=document.querySelector('.ip');//qr_link.value has the qrlink
     if (qr_link.value===''){
-        alert('Please enter a valid link');
+        alert('ErrorCode 404:link not found! Please enter a valid link');
         return;
     }
     link=qr_link.value;
