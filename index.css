@@ -68,6 +68,10 @@ button:hover{
 body{
         background: linear-gradient(to right, #ff7e5f, #feb47b);
 }
+.contacts{ 
+        position: relative;
+        top: -15vh;
+    }
 
 
 
@@ -106,5 +110,9 @@ body{
     }
     button:hover{
         border: .2vw white dotted;
+    }
+    .contacts{ 
+        position: relative;
+        top: 12vh;
     }
 }
