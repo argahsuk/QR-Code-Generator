@@ -18,4 +18,5 @@ document.querySelector('.gen').addEventListener('click',function(){
         width: 250,
         height:250,  
     });
+      document.querySelector('h1').textContent="Thank You for using the Website"
 })
