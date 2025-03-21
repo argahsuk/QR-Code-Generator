@@ -94,6 +94,8 @@ body{
         width: 80%;
         height: auto;
         left: 0px;
+         position: relative;
+        bottom: -100px; 
     }
 
     button {
